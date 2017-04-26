@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+
+
+    </script>
+    <script>
+      $(document).ready(function() {
+        $("p").click(function() {
+          alert("This is a paragraph.");
+          $("h1").click(function() {
+            alert("This is a header.");
+            $("img").click(function() {
+              prompt("Isn't it beautiful?");
+            });
+          });
+        });
+      });
+
+    </script>
+    <title>Bugatti</title>
+  </head>
+
+  <body>
+    <h1>The best car</h1>
+    <p>Bugatti is the fastest car in the world!</p>
+    <p>Bugatti is the most expensive car in the world!</p>
+    <p>Bugatti is the best car in the world!</p>
+    <p>If you have never seen bugatti, checkout this picture!</p>
+    <img src="http://goo.gl/lfOsgV" alt="">
+
+  </body>
+
+</html>
